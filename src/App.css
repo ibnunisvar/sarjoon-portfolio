@@ -1,0 +1,68 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #333;
+  color: #f4f4f9;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Navbar Styles */
+.navbar {
+  /* background-color: #0f0f0f; */
+  padding: 10px 10px;
+  border-radius: 25px; /* Pill shape */
+  display: inline-block;
+  margin: 20px auto;
+  background: rgba(107, 107, 107, 0.29);
+  /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+  box-shadow: inset -1px -1px 15px #6b6b6b72;
+  backdrop-filter: blur(13.7px);
+  -webkit-backdrop-filter: blur(13.7px);
+  /* border: 1px  rgba(0, 0, 0, 0.09); */
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: rgb(219, 219, 219);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  background-color: #6e6e6e79;
+}
+
+/* Section Styles */
+section {
+  padding: 60px 20px;
+  margin: 20px 0;
+  background-color: rgba(255, 255, 255, 0.038);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navbar {
+    width: 90%;
+  }
+}
