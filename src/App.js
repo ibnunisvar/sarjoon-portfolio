@@ -13,8 +13,14 @@ function App() {
           <li><a href="#skills">Skills</a></li>
         </ul>
       </nav>
+
+      {/* Hero Section */}
+      <header className="hero">
+        <h1>I'm Mohammed Sarjoon</h1>
+        <p>A passionate UI/UX Engineer & Frontend Developer</p>
+      </header>
+
       <main>
-        <section id="home">Home Section</section>
         <section id="about">About Me Section</section>
         <section id="projects">Projects Section</section>
         <section id="services">Services Section</section>
