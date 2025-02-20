@@ -268,3 +268,107 @@ section {
   background: #4caf50;
   transition: width 0.5s ease-in-out;
 }
+
+
+/* Contact Section */
+.contact {
+  text-align: center;
+  padding: 80px 10%;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* Contact Section */
+.contact {
+  text-align: center;
+  padding: 80px 10%;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* Contact Form */
+.contact form {
+  max-width: 500px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Labels */
+.contact label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ddd;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Input & Textarea Fields */
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  box-shadow: inset 0 0 8px rgba(255, 255, 255, 0.1);
+}
+
+.contact input:focus,
+.contact textarea:focus {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Textarea */
+.contact textarea {
+  resize: none;
+  height: 120px;
+}
+
+/* Submit Button */
+.contact button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #4caf50, #388e3c);
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+}
+
+.contact button:hover {
+  background: linear-gradient(135deg, #45a049, #2e7d32);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 255, 100, 0.2);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact form {
+    width: 90%;
+  }
+}
